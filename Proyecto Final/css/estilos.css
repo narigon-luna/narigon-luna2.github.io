@@ -1,0 +1,162 @@
+*{
+    font-family: 'Solitreo', cursive;
+}
+body{
+    background-color: #919485
+}
+h1{
+   font-size: 60px;
+    margin-left: 35%;
+}
+h2{
+    text-align: center;
+}
+header{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+header h2{
+    border: 1px   black;
+    background-color: #ff002b;
+    padding: 30px 10px 10px 10px;
+    margin: 15px 10px 30px 10px;
+    box-shadow: 7px 7px 7px 7px; 
+}
+header nav ul{
+    padding: 8px;
+    margin: 5px;
+    display: flex;
+}
+
+header nav ul li{
+    display: inline-block;
+    background: rgb(0, 140, 255) ;
+    padding: 25px;
+    margin: 5px;
+}
+header nav ul li a{
+    color: #fff;
+}
+li{
+    margin: 3px;
+}
+.fa-capsules{
+     border-radius: 20px;
+}
+article section img{
+    margin-left: 30%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-item{
+     background-color: #004d00;
+     color: #fff;
+     margin: 10px;
+     padding: 10px;
+     flex-grow: 1;
+}
+.columna{
+    border: 4px solid;
+    background-color:rgb(245, 222, 179);
+}
+.container{
+ margin: 20px;
+}
+.row{
+    display: flex;
+}
+.col{
+    text-align: center;
+    border: 3px solid;
+    padding: 5px;
+    margin: 1%;
+}
+section div p{
+    background-color: white;
+}
+h4{
+    font-size: 30px;
+    margin-left: 40%;
+}
+
+form{
+    margin: 5%;
+}
+.form{
+    background: #444;
+    display: flex;
+    align-items: center;
+   
+}
+.form-input{
+    padding: auto;
+    margin: auto;
+}
+.form-img img{
+    margin: 1%;
+    padding: 20px;
+    border-radius: 30%;
+    width: 70px;
+}
+footer{
+    margin: 10%;
+}
+.miclase{
+    border: 4px solid;
+    padding: 7px;
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    background-color: aquamarine;
+}
+#mi_lista{
+    font-size: x-large;
+}
+
+@media screen and (min-width: 400px) {
+    .miclase { border: 4px solid;
+        padding: 3px;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        background-color: aquamarine;
+}
+}
+  
+@media screen and (max-width: 400px) {
+    .miclase { border: 4px solid;
+        padding: 10px;
+        margin-top: 15px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        background-color: rgb(255, 200, 127);
+}
+}
+  @media screen and (max-width: 1300px) {
+   header nav ul{
+        display: block;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+  display: block;
+  align-items: end;
+ }
+}
+
+
+
+  
+ 

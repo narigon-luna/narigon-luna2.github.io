@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="https://www.farmaopcion.es/wp-content/uploads/2018/06/DESPUES-14.jpg">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <script src="https://kit.fontawesome.com/18d86a1b75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/18d86a1b75.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <button type="button" id="boton_color" >Cambiar color de fondo</button>
+
+    <button type="button" id="boton_default" >Reestablecer color de fondo</button>
+
+    <script src="js/funciones.js"></script>
+ <header>
+         <h2>Tecnico<br>Superior<br>Farmacia</h2>
+    <nav>
+        <ul>
+            <li class="fa-sharp fa-solid fa-capsules"><a href="#datos personales">DATOS  PERSONALES</a></li>
+            <li class="fa-sharp fa-solid fa-capsules"><a href="#formacion educativa">FORMACION  EDUCATICA</a></li>
+            <li class="fa-sharp fa-solid fa-capsules"><a href="#experiencia laboral">EXPERIENCIA  LABORAL</a></li>
+            <li class="fa-sharp fa-solid fa-capsules"><a href="#aptitudes personales">APTITUDES  PERSONALES</a></li>                <li class="fa-sharp fa-solid fa-capsules"><a href="#contacto">CONTACTO</a></li>
+        <ul>
+    </nav>
+ </header>
+ <article>
+    <section>
+          <h1>Curriculum Vitae</h1>
+       
+          <p id="reseña" style="display:none">
+        El <b>Tecnico Superior En Farmacia</b> es un profesional capaz de operar en las organizaciones
+        dando cumplimiento a la normativa vigente en el área de farmacia y medicamentos; 
+        participando y/o asistiendo en el almacenamiento, dispensación y distribución de medicamentos,
+        productos biomédicos, y en la elaboración de formulaciones estériles y no estériles, 
+        llevando a cabo procedimientos técnicos y administrativos de cada área farmacéutica. <br>
+         Los técnicos de farmacia desempeñan una variedad de funciones administrativas y de servicio al cliente 
+        en farmacias. Además, los técnicos de farmacia asisten a los farmacéuticos con licencia en la 
+        preparación de medicamentos recetados.
+        Numerosos expertos que escribieron a finales de los años sesenta y principios de los setenta vieron 
+        un papel importante para los técnicos de farmacia. Al asumir una variedad de tareas administrativas, 
+        los técnicos de farmacia permitirían que los farmacéuticos con licencia se centren en el proceso de 
+        toma de decisiones de la farmacia.
+        En la primera parte del siglo XX, la profesión farmacéutica no reconoció realmente a los técnicos 
+        de farmacia. Sin embargo, desde la década de 1970, se han tomado varias medidas para reconocer a los
+        técnicos farmacéuticos. <br>
+        En 1975, la Sociedad Americana de Farmacéuticos del Sistema de Salud (ASHP) creó pautas de capacitación 
+        para el personal de apoyo de farmacia de hospitales. En 1979, el Colegio de Farmacia de Massachusetts 
+        lanzó un programa de capacitación para técnicos de farmacia en hospitales.
+        En 1982, el ASHP creó estándares para la acreditación de programas de capacitación de
+         técnicos farmacéuticos. Los años 90 y más allá En 1995, el ASHP y otros grupos crearon 
+         la Junta de Certificación de Técnicos de Farmacia (PTCB). Para julio de 2006, el PTCB había 
+         certificado a más de 250,000 técnicos de farmacia.
+         </p>
+       <button type="button" onclick="document.getElementById('reseña').style.display='block'">Click reseña</button>
+       <button type="button" onclick="document.getElementById('reseña').style.display='none'">Cierra reseña</button>
+        
+       <img src="https://randomuser.me/api/portraits/women/93.jpg" alt="Imagen Tecnica Farmaceutica" title="T.S.F."
+        height="200px" width="200px">
+    </section>
+
+    <section>
+     <div  class="miclase">
+            <h2 id="datos personales">DATOS PERSONALES </h2>
+            <ul>
+                <li>Nombre: Maria Aimé Rodriguez</li>
+                <li>DNI: 35.224.678</li>
+                <li>Domicilio: Chacabuco 1348</li>
+                <li>Fecha de nacimiento: 18/09/1991</li>
+                <li>Edad: 32 años</li>
+                <li> Teléfono: (381) 154 44 95 84</li>
+                <li><a href="#email">E-mail: aime_luna@hotmail.com</a></li>
+            </ul>
+     </div>
+   
+     <div class="miclase">
+          <h2 id="formacion educativa">FORMACIÓN EDUCATIVA</h2>
+          <ul>
+             <div class="flex-container">
+               <div class="flex-item">
+                <li>Estudios secundarios completos. <br> Escuela de Agricultura y Sacarotecnia. <br>
+                Título: Técnico Agropecuario.</li>
+              </div>
+                <div class="flex-item" >
+                 <li>Estudios universitarios incompletos. <br> Facultad de Bioquimica y farmacia. </li>
+              </div>
+               <div class="flex-item">
+                <li id="mi_lista">Estudios terciarios. ATSA. Tecnicatura en farmacia.</a></li>
+               </div>
+             </div>
+         </ul>
+      </div>
+    
+    
+    <div class="miclase">
+        <h2 id="experiencia laboral">EXPERIENCIA LABORAL</h2>
+        
+            <ol>
+                <li>Ayudante de Farmacia Del Valle. Febrero-Noviembre 2018</li>
+                <li>Ayudante de Catedra. Marzo-Diciembre 2019</li>
+                <li>Auxiliar de Farmacia.Sanatorio Norte . Febrero-Noviembre 2021</li>
+             </ol>
+        
+    </div>
+    <div class="columna">
+        <h2 id="aptitudes personales">APTITUDES PERSONALES</h2>
+               
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Compromiso </h3>
+                    <p>
+                    La constante busqueda de superación hace que lleve al maximo mis esfuerzos en busca de los objetivos    
+                    </p>
+                </div>
+                  
+                <div class="col">
+                    <h3>Honestidad</h3>
+                    <p>
+                    Convencido que la formación como persona esta por encima de todo.
+                    </p>
+                </div>
+                  
+                <div class="col">
+                    <h3>Trabajo en equipo</h3>
+                    <p>
+                    Hábido de adquirir nuevos conocimientos y totalmente disponible para volcar los mios
+                    </p>
+                </div>
+            </div>
+         </div>
+    </div>       
+    <section>
+    
+    <section>   
+     <form>
+        <h4 id="contacto">CONTACTO</h4>
+        <p>Si esta interesado en contactarme, sirvase llenar el formulario</p>
+      <div class="form">
+              
+           <label>Nombre</label>
+           <input type="text" name="nombre" placeholder="Ingrese su nombre" required class="form-input">
+          
+         
+           <label>Apellido</label>
+           <input type="text" name="apellido" placeholder="Ingrese su apellido" required class="form-input" >
+         
+          <label>E-mail</label>
+          <input type="email" name="email" placeholder="Ingrese su email" required class="form-input" >
+         
+          <input type="submit"  value="Enviar" class="form-input">
+         
+         <div class="form-img">
+            <img src="https://img2.freepng.es/20180606/xbk/kisspng-email-clip-art-open-envelope-5b1885b6f1a5f1.8092976715283337509898.jpg" alt="Sobre">
+         </div>
+      </div>
+    </form>
+   </section>
+</article>
+<footer>
+        <p> Author: Eduardo Luna<br>
+          <a href="mailto:manueletra70@hotmail.com">manueletra70@hotmail.com</a></p>
+          <a href="https://www.cent74atsatucuman.ar/">ATSA-TUCUMAN</a>
+</footer>
+    
+    </body>
+</html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact Gi
